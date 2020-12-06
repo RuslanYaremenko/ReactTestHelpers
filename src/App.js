@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import { injectIntl } from 'react-intl';
 
-const  App = ({ intl }) => {
+const  App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -23,4 +22,4 @@ const  App = ({ intl }) => {
   );
 }
 
-export default injectIntl(App);
+export default App;
